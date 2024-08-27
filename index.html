@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal TI</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.svg">
+    
+    <!-- fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- parallax -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+          <!-- add essa class -->
+          <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a class="navbar-brand" href="index.html">
+              <img id="logo" src="img/logo.svg" alt="Portal TI"> Portal TI
+            </a>
+            <!-- mobile button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" id="home-menu" href="index.html">Home</span></a>
+                <a class="nav-item nav-link" id="about-menu" href="#">Carreiras</a>
+                <a class="nav-item nav-link" id="services-menu" href="#">Habilidades</a>
+                <a class="nav-item nav-link" id="team-menu" href="#">Formação</a>
+                <a class="nav-item nav-link" id="portfolio-menu" href="#">Onde estudar</a>
+                <a class="nav-item nav-link" id="contact-menu" href="#">Oportunidades</a>
+                <a class="nav-item nav-link" id="contact-menu" href="#">Nossa Missão</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="container-fluid">
+          <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#mainSlider" data-slide-to="1"></li>
+              <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner1.png" class="d-block w-100" alt="projetos de e-commerce">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Explore oportunidades!</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
