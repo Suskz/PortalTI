@@ -38,8 +38,12 @@ header, .navbar {
 .navbar-brand:hover {
     color: #FFF;
 }
-  
+
 #navbar-links a {
+    color: #d1d1d1;
+}
+
+#navbar-links a:hover {
     color: #FFF;
 }
   
