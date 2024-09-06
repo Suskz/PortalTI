@@ -351,3 +351,7 @@ header,
     text-decoration: none;
     color: #3EC1D5;
 }
+
+#copy-area .container table {
+    width: 35% !important;margin: auto;
+}
