@@ -58,7 +58,7 @@ header,
     border-bottom: 3px solid #FFF;
 }
 
-/* slider */
+/* Slider */
 .container-fluid {
     padding: 0;
 }
@@ -133,7 +133,7 @@ header,
     font-size: 11px;
 }
 
-/* habilidades */
+/* Habilidades */
 
 .skills-box {
     text-align: center;
@@ -167,29 +167,54 @@ header,
     background-color: #F9F9F9;
 }
 
-#graduation-area h4{
-    background-color: #F9F9F9;
+#graduation-area h4 {
     list-style: none;
     text-align: center;
 }
 
-#graduation-area li{
-    background-color: #F9F9F9;
+#graduation-area li {
     text-align: justify;
     list-style: none;
 }
 
-#pattern-img i{
+#pattern-img i {
     font-size: 3em;
     margin-right: 10px;
 }
 
 #graduation-list li {
-    
-    margin-bottom: 10px; /* Ajusta o espaço entre os itens da lista */
-  }
+    margin-bottom: 10px;
+    /* Ajusta o espaço entre os itens da lista */
+}
 
-/* Learn */
+
+/* Oportunidades */
+
+.oportunity-box {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.oportunity-middle {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #313133;
+}
+
+.oportunity-box .oportunity-title {
+    margin-bottom: 20px;
+}
+
+.oportunity-box p {
+    text-align: justify;
+    font-size: medium;
+}
+
+
+/* Onde estudar */
 
 .learn-box {
     margin-bottom: 30px;
@@ -320,6 +345,7 @@ header,
         height: 40px;
         opacity: 1;
     }
+
     100% {
         width: 60px;
         height: 60px;
@@ -327,7 +353,7 @@ header,
     }
 }
 
-/* Copy */
+/* Copyright */
 
 #copy-area {
     background-color: #F1F1F1;
@@ -353,5 +379,6 @@ header,
 }
 
 #copy-area .container table {
-    width: 35% !important;margin: auto;
+    width: 35% !important;
+    margin: auto;
 }
