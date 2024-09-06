@@ -65,7 +65,7 @@ header,
 
 #mainSlider .carousel-inner,
 #mainSlider .carousel-item {
-    height: 90vh;
+    height: 85vh;
 }
 
 #mainSlider .carousel-caption {
@@ -86,9 +86,9 @@ header,
     text-shadow: #000 2px 2px 2px;
 }
 
-/* sobre o Portal TI */
+/* Carreira */
 
-#about-area {
+#career-area {
     background-color: #F9F9F9;
 }
 
@@ -110,127 +110,84 @@ header,
     left: 42.5%;
 }
 
-.about-title {
+.career-title {
     font-size: 17px;
     color: #444;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-#about-list {
+#career-list {
     list-style: none;
     padding-left: 0;
 }
 
-#about-list i {
+#career-list i {
     color: #65DAF9;
     margin-right: 15px;
-    font-size: 1.3em;
+    font-size: 1.8em;
+}
+
+.copy {
+    margin-top: -15px;
+    font-size: 11px;
 }
 
 /* habilidades */
 
-.service-box {
+.skills-box {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.service-box i,
-.service-box h4 {
+.skills-box i,
+.skills-box h4 {
     transition: .5s;
 }
 
-.service-box i {
+.skills-box i {
     font-size: 36px;
     margin-bottom: 20px;
     color: #444;
 }
 
-.service-box h4 {
+.skills-box h4 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.service-box:hover>i,
-.service-box:hover>h4 {
+.skills-box:hover>i,
+.skills-box:hover>h4 {
     color: #65DAF9;
 }
 
 /* Formação */
 
 #graduation-area {
-    height: 500px;
+    background-color: #F9F9F9;
 }
 
-#graduation-area .container-fluid,
-#graduation-area .row {
-    height: 100%;
-}
-
-#graduation-area .graduation-box {
-    padding: 70px 50px;
+#graduation-area h4{
+    background-color: #F9F9F9;
+    list-style: none;
     text-align: center;
 }
 
-#highschool-img {
-    background-image: url('../img/empresa.jpg');
-    background-size: cover;
-    height: 100%;
+#graduation-area li{
+    background-color: #F9F9F9;
+    text-align: justify;
+    list-style: none;
 }
 
-#pattern-img {
-    background-image: url('../img/pattern.png');
+#pattern-img i{
+    font-size: 3em;
+    margin-right: 10px;
 }
 
-#pattern-img h4,
-#pattern-img p {
-    color: #FFF;
-}
-
-#pattern-img h4 {
-    margin-top: 8%;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-#pattern-img p {
-    margin-bottom: 20px;
-}
-
-.main-btn {
-    background-color: #65DAF9;
-    color: #FFF;
-    text-transform: uppercase;
-    width: 200px;
-    height: 60px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: 3px solid transparent;
-    transition: .5s;
-}
-
-.main-btn:hover {
-    text-decoration: none;
-    color: #FFF;
-    background-color: transparent;
-    border-color: #3EC1D5;
-}
-
-#graduation-btn {
-    display: block;
-    height: auto;
-    width: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    background-color: transparent;
-    border-color: #FFF;
-}
-
-#graduation-btn:hover {
-    border-color: #65DAF9;
-    background-color: #65DAF9;
-}
+#graduation-list li {
+    
+    margin-bottom: 10px; /* Ajusta o espaço entre os itens da lista */
+  }
 
 /* Learn */
 
@@ -267,38 +224,59 @@ header,
     margin-bottom: 15px;
 }
 
+#learn-area h6 {
+    font-size: small;
+}
+
+.main-btn {
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #3EC1D5;
+}
+
 .campus-btn {
     display: flex;
-    max-width: 210px;
-    max-height: 48px;
-    font-size: 18px;
+    max-width: 160px;
+    max-height: 40px;
+    font-size: 16px;
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
     margin: auto;
-    font-weight: 430;
     color: #313133;
     background: #65DAF9;
     background: linear-gradient(90deg, #65DAF9 0%, #65DAF9 100%);
     border: 1px solid;
     border-radius: 1000px;
-    box-shadow: 8px 8px 16px rgba(79, 209, 197, .64);
+    box-shadow: 6px 6px 12px rgba(79, 209, 197, .64);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
     position: relative;
-    padding: 8px;
-    padding-top: 12px;
-
+    padding: 6px;
+    padding-top: 8px;
 }
 
 .campus-btn::before {
     content: '';
     border-radius: 1000px;
-    min-width: calc(200px + 8px);
-    min-height: calc(40px + 8px);
-    box-shadow: 0 0 40px rgba(0, 225, 255, 0.64);
+    min-width: calc(160px + 6px);
+    min-height: calc(40px + 6px);
+    box-shadow: 0 0 30px rgba(0, 225, 255, 0.64);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -311,22 +289,17 @@ header,
 .campus-btn:focus {
     color: #ffffff;
     border-color: transparent;
-    transform: translateY(-4px);
+    transform: translateY(-3px);
     border-color: transparent;
     text-decoration: none;
 }
 
-.campus-btn:hover::before,
-.campus-btn:focus::before {
-    opacity: 1;
-}
-
 .campus-btn::after {
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 100%;
-    border: 4px solid #00FFCB;
+    border: 3px solid #00FFCB;
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -343,14 +316,38 @@ header,
 
 @keyframes ring {
     0% {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         opacity: 1;
     }
-
     100% {
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         opacity: 0;
     }
+}
+
+/* Copy */
+
+#copy-area {
+    background-color: #F1F1F1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3EC1D5;
 }
