@@ -89,7 +89,7 @@ header,
 /* Carreira */
 
 #career-area {
-    background-color: #F9F9F9;
+    background-color: #fafeff;
 }
 
 .main-title {
@@ -164,7 +164,7 @@ header,
 /* Formação */
 
 #graduation-area {
-    background-color: #F9F9F9;
+    background-color: #fafeff;
 }
 
 #graduation-area h4 {
@@ -189,6 +189,10 @@ header,
 
 
 /* Oportunidades */
+
+#oportunity-area {
+    background-color: #F9F9F9;
+}
 
 .oportunity-box {
     text-align: center;
