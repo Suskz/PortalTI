@@ -291,12 +291,12 @@ header,
     border: 1px solid;
     border-radius: 1000px;
     box-shadow: 6px 6px 12px rgba(79, 209, 197, .64);
-    transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
     position: relative;
     padding: 6px;
     padding-top: 8px;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .campus-btn::before {
@@ -317,7 +317,7 @@ header,
 .campus-btn:focus {
     color: #ffffff;
     border-color: transparent;
-    transform: translateY(-3px);
+    transform: translateY(-5px);
     border-color: transparent;
     text-decoration: none;
 }
@@ -384,4 +384,22 @@ header,
 #copy-area .container table {
     width: 35% !important;
     margin: auto;
+}
+
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #444;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.go-to-top:hover {
+    background-color: #65DAF9;
+    transform: translateY(-5px);
 }
