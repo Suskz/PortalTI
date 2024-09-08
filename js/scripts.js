@@ -48,50 +48,44 @@ $(document).ready(function () {
             });
         }
     }
-});
 
-//Botão de ir ao topo
+    let navBtn = $('.nav-item');
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    const goToTopBtn = document.getElementById('goToTopBtn');
-    const hideButtonAfter = 470;
+    let bannerSection = $('#mainSlider');
+    let careerSection = $('#career-area');
+    let skillsSection = $('#skills-area');
+    let graduationSection = $('#graduation-area');
+    let oportunitySection = $('#oportunity-area');
+    let learnSection = $('#learn-area');
 
-    function toggleButtonVisibility() {
-        if (window.scrollY <= hideButtonAfter) {
-            goToTopBtn.style.display = 'none';
-        } else {
-            goToTopBtn.style.display = 'block';
-        }
-    }
+    let scrollTo = '';
 
-    goToTopBtn.addEventListener('click', function (event) {
-        event.preventDefault();
+    $(navBtn).click(function () {
 
-        let start = null;
-        const duration = 400;
-        const startPosition = window.scrollY;
-        const distance = -startPosition;
+        let btnId = $(this).attr('id');
 
-        function step(timestamp) {
-            if (!start) start = timestamp;
-            const progress = timestamp - start;
-            const percent = Math.min(progress / duration, 1);
-
-            window.scrollTo(0, startPosition + distance * easeInOutQuad(percent));
-
-            if (progress < duration) {
-                window.requestAnimationFrame(step);
-            }
-        }
-
-        function easeInOutQuad(t) {
-            return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+        switch (btnId) {
+            case "career-menu":
+                scrollTo = careerSection;
+                break;
+            case "skills-menu":
+                scrollTo = skillsSection;
+                break;
+            case "graduation-menu":
+                scrollTo = graduationSection;
+                break;
+            case "oportunity-menu":
+                scrollTo = oportunitySection;
+                break;
+            case "learn-menu":
+                scrollTo = learnSection;
+                break;
+            default:
+                scrollTo = bannerSection;
         }
 
-        window.requestAnimationFrame(step);
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(scrollTo).offset().top - 70
+        }, 1500);
     });
-
-    window.addEventListener('scroll', toggleButtonVisibility);
-
-    toggleButtonVisibility();
 });
