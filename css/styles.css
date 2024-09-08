@@ -87,7 +87,6 @@ header,
 }
 
 /* Carreira */
-
 #career-area {
     background-color: #fafeff;
 }
@@ -134,7 +133,6 @@ header,
 }
 
 /* Habilidades */
-
 .skills-box {
     text-align: center;
     margin-bottom: 50px;
@@ -346,7 +344,7 @@ header,
     font-weight: bold;
     color: #444;
     text-decoration: none;
-    
+
 }
 
 #copy-area .container a:hover {
@@ -355,7 +353,7 @@ header,
 }
 
 #copy-area .container table {
-    width: 35% !important;
+    width: 60% !important;
     margin: auto;
 }
 
@@ -376,4 +374,119 @@ header,
     background-color: rgb(0, 79, 159);
     color: #FFF;
     transform: translateY(-5px);
+}
+
+/* responsive tablet */
+@media(max-width: 768px) {
+
+    /* geral */
+    .container {
+        padding: 20px 0;
+    }
+
+    /* slider */
+    #mainSlider .carousel-inner,
+    #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 30px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+    }
+
+    /* carreira */
+    #career-area img {
+        margin-top: 100px;
+    }
+
+    /* onde estudar */
+    #graduation-area .graduation-box {
+        padding: 50px 25px;
+    }
+
+    #graduation-area img {
+        margin-top: 100px;
+    }
+
+    /* copy */
+    #copy-area .container table {
+        border-collapse: separate;
+        border-spacing: 10px 0;
+        width: 65% !important;
+        margin: auto;
+    }
+}
+
+@media(max-width: 425px) {
+
+    /* slider */
+    #mainSlider {
+        margin-top: 80px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    /* carreira */
+  .main-title {
+    font-size: 30px;
+  }
+
+  #career-area img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  /* formação */
+  #graduation-area img {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  #graduation-area .main-title {
+    margin-bottom: 0px;
+  }
+
+  #graduation-area .graduation-box {
+    margin-bottom: -90px;
+  }
+
+  #oportunity-area .main-title {
+    margin-top: 90px;
+  }
+
+  /* onde aprender */
+  #learn-area .filter-btn {
+    margin-bottom: 20px;
+  }
+
+  .project-box {
+    width: 50%;
+  }
+
+  /* copyright */
+  #copy-area .container table {
+    width: 105% !important;
+}
 }
