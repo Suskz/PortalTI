@@ -13,7 +13,7 @@ body {
 p,
 li {
     color: #444;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /* Barra de navegação */
@@ -123,7 +123,7 @@ header,
 }
 
 #career-list i {
-    color: #65DAF9;
+    color: rgb(0, 79, 159);
     margin-right: 15px;
     font-size: 1.8em;
 }
@@ -158,7 +158,7 @@ header,
 
 .skills-box:hover>i,
 .skills-box:hover>h4 {
-    color: #65DAF9;
+    color: rgb(0, 79, 159);
 }
 
 /* Formação */
@@ -178,13 +178,12 @@ header,
 }
 
 #pattern-img i {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-right: 10px;
 }
 
 #graduation-list li {
     margin-bottom: 10px;
-    /* Ajusta o espaço entre os itens da lista */
 }
 
 
@@ -229,8 +228,8 @@ header,
 }
 
 #learn-area .filter-btn {
-    color: #444;
-    border: 1px solid #444;
+    color: rgb(0, 79, 159);
+    border: 1px solid rgb(0, 79, 159);
     background-color: transparent;
     text-transform: none;
     margin: 5px 5px;
@@ -244,8 +243,8 @@ header,
 #learn-area .filter-btn.active,
 #learn-area .filter-btn:hover {
     color: #FFF;
-    border: 1px solid #65DAF9;
-    background-color: #65DAF9;
+    border: 1px solid #F3D332;
+    background-color: #004084;
 }
 
 .img-fluid {
@@ -257,22 +256,9 @@ header,
 }
 
 .main-btn {
-    background-color: #65DAF9;
-    color: #FFF;
-    text-transform: uppercase;
-    width: 200px;
-    height: 60px;
     padding: 10px 20px;
     border-radius: 30px;
-    border: 3px solid transparent;
     transition: .5s;
-}
-
-.main-btn:hover {
-    text-decoration: none;
-    color: #FFF;
-    background-color: transparent;
-    border-color: #3EC1D5;
 }
 
 .campus-btn {
@@ -285,12 +271,11 @@ header,
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin: auto;
-    color: #313133;
-    background: #65DAF9;
-    background: linear-gradient(90deg, #65DAF9 0%, #65DAF9 100%);
+    color: #FFF;
+    background: #0056b0;
     border: 1px solid;
     border-radius: 1000px;
-    box-shadow: 6px 6px 12px rgba(79, 209, 197, .64);
+    text-decoration: none;
     cursor: pointer;
     outline: none;
     position: relative;
@@ -299,26 +284,12 @@ header,
     transition: background-color 0.3s, transform 0.2s;
 }
 
-.campus-btn::before {
-    content: '';
-    border-radius: 1000px;
-    min-width: calc(160px + 6px);
-    min-height: calc(40px + 6px);
-    box-shadow: 0 0 30px rgba(0, 225, 255, 0.64);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: all .3s ease-in-out 0s;
-}
-
 .campus-btn:hover,
 .campus-btn:focus {
-    color: #ffffff;
-    border-color: transparent;
+    color: #FFF;
+    background-color: #004084;
+    border-color: solid;
     transform: translateY(-5px);
-    border-color: transparent;
     text-decoration: none;
 }
 
@@ -327,7 +298,7 @@ header,
     width: 16px;
     height: 16px;
     border-radius: 100%;
-    border: 3px solid #00FFCB;
+    border: 3px solid #F3D332;
     position: absolute;
     z-index: -1;
     top: 50%;
@@ -374,11 +345,13 @@ header,
 #copy-area .container a {
     font-weight: bold;
     color: #444;
+    text-decoration: none;
+    
 }
 
 #copy-area .container a:hover {
-    text-decoration: none;
-    color: #3EC1D5;
+    text-decoration: underline;
+    color: rgb(0, 79, 159);
 }
 
 #copy-area .container table {
@@ -390,16 +363,17 @@ header,
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #444;
-    color: #fff;
+    background-color: #FFF;
+    color: rgb(0, 79, 159);
     padding: 10px 15px;
     border-radius: 50px;
     font-size: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     transition: background-color 0.3s, transform 0.2s;
 }
 
 .go-to-top:hover {
-    background-color: #65DAF9;
+    background-color: rgb(0, 79, 159);
+    color: #FFF;
     transform: translateY(-5px);
 }
