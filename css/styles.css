@@ -376,6 +376,10 @@ header,
     transform: translateY(-5px);
 }
 
+.collapse {
+    transition: height 0.35s ease;
+}
+
 /* responsive tablet */
 @media(max-width: 768px) {
 
