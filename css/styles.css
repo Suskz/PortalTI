@@ -357,6 +357,7 @@ header,
     margin: auto;
 }
 
+/* go to top button */
 .go-to-top {
     position: fixed;
     bottom: 20px;
@@ -376,6 +377,7 @@ header,
     transform: translateY(-5px);
 }
 
+/* button menu */
 .collapse {
     transition: height 0.35s ease;
 }
@@ -453,44 +455,44 @@ header,
     }
 
     /* carreira */
-  .main-title {
-    font-size: 30px;
-  }
+    .main-title {
+        font-size: 30px;
+    }
 
-  #career-area img {
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
+    #career-area img {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
 
-  /* formação */
-  #graduation-area img {
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
+    /* formação */
+    #graduation-area img {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
 
-  #graduation-area .main-title {
-    margin-bottom: 0px;
-  }
+    #graduation-area .main-title {
+        margin-bottom: 0px;
+    }
 
-  #graduation-area .graduation-box {
-    margin-bottom: -90px;
-  }
+    #graduation-area .graduation-box {
+        margin-bottom: -90px;
+    }
 
-  #oportunity-area .main-title {
-    margin-top: 90px;
-  }
+    #oportunity-area .main-title {
+        margin-top: 90px;
+    }
 
-  /* onde aprender */
-  #learn-area .filter-btn {
-    margin-bottom: 20px;
-  }
+    /* onde aprender */
+    #learn-area .filter-btn {
+        margin-bottom: 20px;
+    }
 
-  .project-box {
-    width: 50%;
-  }
+    .project-box {
+        width: 50%;
+    }
 
-  /* copyright */
-  #copy-area .container table {
-    width: 105% !important;
-}
+    /* copyright */
+    #copy-area .container table {
+        width: 100% !important;
+    }
 }
