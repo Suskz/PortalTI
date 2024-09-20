@@ -27,7 +27,7 @@ Esse projeto faz parte de uma atividade avaliativa para a disciplina de Programa
 
 **Autores**
 
-+ [Ielson Dias](https://linkedin.com/in/ielson-dias/)\
++ [Ielson Dias](https://linkedin.com/in/ielson-dias/)
 + [Kaique Aquino](https://linkedin.com/in/kaique-aquino/)
 + [Vinicius Castro](https://linkedin.com/in/vinicius-castrodev/)
 
