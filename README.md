@@ -27,10 +27,10 @@ Esse projeto faz parte de uma atividade avaliativa para a disciplina de Programa
 
 **Autores**
 
-[Ielson Dias](https://linkedin.com/in/ielson-dias/)
-[Kaique Aquino](https://linkedin.com/in/kaique-aquino/)
-[Vinicius Castro](https://linkedin.com/in/vinicius-castrodev/)
++ [Ielson Dias](https://linkedin.com/in/ielson-dias/)\
++ [Kaique Aquino](https://linkedin.com/in/kaique-aquino/)
++ [Vinicius Castro](https://linkedin.com/in/vinicius-castrodev/)
 
 **Professor**
 
-[Laercio Almeida](https://linkedin.com/in/laercio-almeida-96521b73)
++ [Laercio Almeida](https://linkedin.com/in/laercio-almeida-96521b73)
